@@ -2,6 +2,13 @@
 agenda_bot = {
 	weight_modifier = {
 		weight = 10000
+		modifier = {
+			factor = 0
+			from = {
+				NOT = { has_ethic = ethic_materialist }
+				NOT = { has_ethic = ethic_fanatic_materialist }
+			}
+		}
 	}
 	modifier = {
 		all_technology_research_speed = 0.50
