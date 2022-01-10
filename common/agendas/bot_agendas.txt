@@ -1,0 +1,9 @@
+# BOT Agendas
+agenda_bot = {
+	weight_modifier = {
+		weight = 10000
+	}
+	modifier = {
+		all_technology_research_speed = 0.50
+	}
+}
